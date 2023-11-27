@@ -8,13 +8,13 @@ function App() {
   return (
     <div className={'flex gap-5 flex-col'}>
       <p>组件联动demo</p>
-      <div className={"min-h-[200px] border-2 border-solid"}>
+      <div className={"min-h-[150px] border-2 border-solid p-2"}>
         <h2>Target</h2>
         <Suspense fallback={<div>Loading Target</div>}>
           <Target />
         </Suspense>
       </div>
-      <div className={"min-h-[200px] border-2 border-solid"}>
+      <div className={"min-h-[150px] border-2 border-solid p-2"}>
         <h2>Video</h2>
         <Suspense fallback={<div>Loading Video</div>}>
           <Video />

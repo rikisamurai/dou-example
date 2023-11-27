@@ -3,7 +3,7 @@ function sleep(ms) {
 }
 
 export const fetchAllData = async () => {
-  await sleep(2000);
+  await sleep(1500);
 
   return {
     target: ["likes", "videos", "comments"],
@@ -12,7 +12,7 @@ export const fetchAllData = async () => {
 };
 
 export const fetchVideoByTarget = async (target) => {
-  await sleep(2000); // 模拟异步操作，等待2秒
+  await sleep(1500);
 
   switch (target) {
     case "likes":
